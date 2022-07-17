@@ -27,7 +27,7 @@ function App() {
         setAllData3(res.data[0]['Stage 2'])
       })
       .catch((err) => {
-        console.log("Err in fetchAllTask: ", err);
+        console.log("fetchAllTask err: ", err);
       });
   }
 
